@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E7F2BEE1C9AAA8C00AFC94E /* JDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F2BED1C9AAA8C00AFC94E /* JDropDownMenu.m */; };
+		2E7F2BEF1C9AAA9A00AFC94E /* JDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F2BED1C9AAA8C00AFC94E /* JDropDownMenu.m */; };
+		2E8D28391C9A9F20003EB343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D28381C9A9F20003EB343 /* main.m */; };
+		2E8D283C1C9A9F20003EB343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D283B1C9A9F20003EB343 /* AppDelegate.m */; };
+		2E8D283F1C9A9F20003EB343 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D283E1C9A9F20003EB343 /* ViewController.m */; };
+		2E8D28421C9A9F20003EB343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D28401C9A9F20003EB343 /* Main.storyboard */; };
+		2E8D28441C9A9F20003EB343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D28431C9A9F20003EB343 /* Assets.xcassets */; };
+		2E8D28471C9A9F20003EB343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D28451C9A9F20003EB343 /* LaunchScreen.storyboard */; };
+		2E8D28521C9A9F20003EB343 /* JDropDownMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D28511C9A9F20003EB343 /* JDropDownMenuDemoTests.m */; };
+		2E8D285D1C9A9F20003EB343 /* JDropDownMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D285C1C9A9F20003EB343 /* JDropDownMenuDemoUITests.m */; };
+		2E8D286E1C9A9F85003EB343 /* JDropDownMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D286D1C9A9F85003EB343 /* JDropDownMenuItem.m */; };
+		2E8D286F1C9A9F85003EB343 /* JDropDownMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D286D1C9A9F85003EB343 /* JDropDownMenuItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E8D284E1C9A9F20003EB343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E8D282C1C9A9F20003EB343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E8D28331C9A9F20003EB343;
+			remoteInfo = JDropDownMenuDemo;
+		};
+		2E8D28591C9A9F20003EB343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E8D282C1C9A9F20003EB343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E8D28331C9A9F20003EB343;
+			remoteInfo = JDropDownMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E7F2BEC1C9AAA8C00AFC94E /* JDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDropDownMenu.h; path = JDropDownMenu/JDropDownMenu.h; sourceTree = "<group>"; };
+		2E7F2BED1C9AAA8C00AFC94E /* JDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDropDownMenu.m; path = JDropDownMenu/JDropDownMenu.m; sourceTree = "<group>"; };
+		2E8D28341C9A9F20003EB343 /* JDropDownMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDropDownMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8D28381C9A9F20003EB343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E8D283A1C9A9F20003EB343 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E8D283B1C9A9F20003EB343 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E8D283D1C9A9F20003EB343 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E8D283E1C9A9F20003EB343 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E8D28411C9A9F20003EB343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E8D28431C9A9F20003EB343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E8D28461C9A9F20003EB343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E8D28481C9A9F20003EB343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8D284D1C9A9F20003EB343 /* JDropDownMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDropDownMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8D28511C9A9F20003EB343 /* JDropDownMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDropDownMenuDemoTests.m; sourceTree = "<group>"; };
+		2E8D28531C9A9F20003EB343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8D28581C9A9F20003EB343 /* JDropDownMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDropDownMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8D285C1C9A9F20003EB343 /* JDropDownMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDropDownMenuDemoUITests.m; sourceTree = "<group>"; };
+		2E8D285E1C9A9F20003EB343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8D286C1C9A9F85003EB343 /* JDropDownMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDropDownMenuItem.h; path = JDropDownMenu/JDropDownMenuItem.h; sourceTree = "<group>"; };
+		2E8D286D1C9A9F85003EB343 /* JDropDownMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDropDownMenuItem.m; path = JDropDownMenu/JDropDownMenuItem.m; sourceTree = "<group>"; };
+		2E8D28701C9A9FDF003EB343 /* JDropDownMenuItemInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDropDownMenuItemInterface.h; path = JDropDownMenu/JDropDownMenuItemInterface.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E8D28311C9A9F20003EB343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8D284A1C9A9F20003EB343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8D28551C9A9F20003EB343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E8D282B1C9A9F20003EB343 = {
+			isa = PBXGroup;
+			children = (
+				2E8D286A1C9A9F2D003EB343 /* JDropDownMenu */,
+				2E8D28361C9A9F20003EB343 /* JDropDownMenuDemo */,
+				2E8D28501C9A9F20003EB343 /* JDropDownMenuDemoTests */,
+				2E8D285B1C9A9F20003EB343 /* JDropDownMenuDemoUITests */,
+				2E8D28351C9A9F20003EB343 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E8D28351C9A9F20003EB343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D28341C9A9F20003EB343 /* JDropDownMenuDemo.app */,
+				2E8D284D1C9A9F20003EB343 /* JDropDownMenuDemoTests.xctest */,
+				2E8D28581C9A9F20003EB343 /* JDropDownMenuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E8D28361C9A9F20003EB343 /* JDropDownMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D283A1C9A9F20003EB343 /* AppDelegate.h */,
+				2E8D283B1C9A9F20003EB343 /* AppDelegate.m */,
+				2E8D283D1C9A9F20003EB343 /* ViewController.h */,
+				2E8D283E1C9A9F20003EB343 /* ViewController.m */,
+				2E8D28401C9A9F20003EB343 /* Main.storyboard */,
+				2E8D28431C9A9F20003EB343 /* Assets.xcassets */,
+				2E8D28451C9A9F20003EB343 /* LaunchScreen.storyboard */,
+				2E8D28481C9A9F20003EB343 /* Info.plist */,
+				2E8D28371C9A9F20003EB343 /* Supporting Files */,
+			);
+			path = JDropDownMenuDemo;
+			sourceTree = "<group>";
+		};
+		2E8D28371C9A9F20003EB343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D28381C9A9F20003EB343 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E8D28501C9A9F20003EB343 /* JDropDownMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D28511C9A9F20003EB343 /* JDropDownMenuDemoTests.m */,
+				2E8D28531C9A9F20003EB343 /* Info.plist */,
+			);
+			path = JDropDownMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		2E8D285B1C9A9F20003EB343 /* JDropDownMenuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D285C1C9A9F20003EB343 /* JDropDownMenuDemoUITests.m */,
+				2E8D285E1C9A9F20003EB343 /* Info.plist */,
+			);
+			path = JDropDownMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+		2E8D286A1C9A9F2D003EB343 /* JDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D28701C9A9FDF003EB343 /* JDropDownMenuItemInterface.h */,
+				2E8D286C1C9A9F85003EB343 /* JDropDownMenuItem.h */,
+				2E8D286D1C9A9F85003EB343 /* JDropDownMenuItem.m */,
+				2E7F2BEC1C9AAA8C00AFC94E /* JDropDownMenu.h */,
+				2E7F2BED1C9AAA8C00AFC94E /* JDropDownMenu.m */,
+			);
+			name = JDropDownMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E8D28331C9A9F20003EB343 /* JDropDownMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8D28611C9A9F20003EB343 /* Build configuration list for PBXNativeTarget "JDropDownMenuDemo" */;
+			buildPhases = (
+				2E8D28301C9A9F20003EB343 /* Sources */,
+				2E8D28311C9A9F20003EB343 /* Frameworks */,
+				2E8D28321C9A9F20003EB343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDropDownMenuDemo;
+			productName = JDropDownMenuDemo;
+			productReference = 2E8D28341C9A9F20003EB343 /* JDropDownMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E8D284C1C9A9F20003EB343 /* JDropDownMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8D28641C9A9F20003EB343 /* Build configuration list for PBXNativeTarget "JDropDownMenuDemoTests" */;
+			buildPhases = (
+				2E8D28491C9A9F20003EB343 /* Sources */,
+				2E8D284A1C9A9F20003EB343 /* Frameworks */,
+				2E8D284B1C9A9F20003EB343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E8D284F1C9A9F20003EB343 /* PBXTargetDependency */,
+			);
+			name = JDropDownMenuDemoTests;
+			productName = JDropDownMenuDemoTests;
+			productReference = 2E8D284D1C9A9F20003EB343 /* JDropDownMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E8D28571C9A9F20003EB343 /* JDropDownMenuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8D28671C9A9F20003EB343 /* Build configuration list for PBXNativeTarget "JDropDownMenuDemoUITests" */;
+			buildPhases = (
+				2E8D28541C9A9F20003EB343 /* Sources */,
+				2E8D28551C9A9F20003EB343 /* Frameworks */,
+				2E8D28561C9A9F20003EB343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E8D285A1C9A9F20003EB343 /* PBXTargetDependency */,
+			);
+			name = JDropDownMenuDemoUITests;
+			productName = JDropDownMenuDemoUITests;
+			productReference = 2E8D28581C9A9F20003EB343 /* JDropDownMenuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E8D282C1C9A9F20003EB343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "蔡杰";
+				TargetAttributes = {
+					2E8D28331C9A9F20003EB343 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2E8D284C1C9A9F20003EB343 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2E8D28331C9A9F20003EB343;
+					};
+					2E8D28571C9A9F20003EB343 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2E8D28331C9A9F20003EB343;
+					};
+				};
+			};
+			buildConfigurationList = 2E8D282F1C9A9F20003EB343 /* Build configuration list for PBXProject "JDropDownMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E8D282B1C9A9F20003EB343;
+			productRefGroup = 2E8D28351C9A9F20003EB343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E8D28331C9A9F20003EB343 /* JDropDownMenuDemo */,
+				2E8D284C1C9A9F20003EB343 /* JDropDownMenuDemoTests */,
+				2E8D28571C9A9F20003EB343 /* JDropDownMenuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E8D28321C9A9F20003EB343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8D28471C9A9F20003EB343 /* LaunchScreen.storyboard in Resources */,
+				2E8D28441C9A9F20003EB343 /* Assets.xcassets in Resources */,
+				2E8D28421C9A9F20003EB343 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8D284B1C9A9F20003EB343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8D28561C9A9F20003EB343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E8D28301C9A9F20003EB343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7F2BEE1C9AAA8C00AFC94E /* JDropDownMenu.m in Sources */,
+				2E8D283F1C9A9F20003EB343 /* ViewController.m in Sources */,
+				2E8D286E1C9A9F85003EB343 /* JDropDownMenuItem.m in Sources */,
+				2E8D283C1C9A9F20003EB343 /* AppDelegate.m in Sources */,
+				2E8D28391C9A9F20003EB343 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8D28491C9A9F20003EB343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8D28521C9A9F20003EB343 /* JDropDownMenuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8D28541C9A9F20003EB343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8D285D1C9A9F20003EB343 /* JDropDownMenuDemoUITests.m in Sources */,
+				2E8D286F1C9A9F85003EB343 /* JDropDownMenuItem.m in Sources */,
+				2E7F2BEF1C9AAA9A00AFC94E /* JDropDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E8D284F1C9A9F20003EB343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E8D28331C9A9F20003EB343 /* JDropDownMenuDemo */;
+			targetProxy = 2E8D284E1C9A9F20003EB343 /* PBXContainerItemProxy */;
+		};
+		2E8D285A1C9A9F20003EB343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E8D28331C9A9F20003EB343 /* JDropDownMenuDemo */;
+			targetProxy = 2E8D28591C9A9F20003EB343 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E8D28401C9A9F20003EB343 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8D28411C9A9F20003EB343 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E8D28451C9A9F20003EB343 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8D28461C9A9F20003EB343 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E8D285F1C9A9F20003EB343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E8D28601C9A9F20003EB343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E8D28621C9A9F20003EB343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JDropDownMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.com.JDropDownMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E8D28631C9A9F20003EB343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JDropDownMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.com.JDropDownMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E8D28651C9A9F20003EB343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JDropDownMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.com.JDropDownMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDropDownMenuDemo.app/JDropDownMenuDemo";
+			};
+			name = Debug;
+		};
+		2E8D28661C9A9F20003EB343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JDropDownMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.com.JDropDownMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDropDownMenuDemo.app/JDropDownMenuDemo";
+			};
+			name = Release;
+		};
+		2E8D28681C9A9F20003EB343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JDropDownMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.com.JDropDownMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDropDownMenuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2E8D28691C9A9F20003EB343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JDropDownMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.com.JDropDownMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDropDownMenuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E8D282F1C9A9F20003EB343 /* Build configuration list for PBXProject "JDropDownMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8D285F1C9A9F20003EB343 /* Debug */,
+				2E8D28601C9A9F20003EB343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8D28611C9A9F20003EB343 /* Build configuration list for PBXNativeTarget "JDropDownMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8D28621C9A9F20003EB343 /* Debug */,
+				2E8D28631C9A9F20003EB343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8D28641C9A9F20003EB343 /* Build configuration list for PBXNativeTarget "JDropDownMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8D28651C9A9F20003EB343 /* Debug */,
+				2E8D28661C9A9F20003EB343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8D28671C9A9F20003EB343 /* Build configuration list for PBXNativeTarget "JDropDownMenuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8D28681C9A9F20003EB343 /* Debug */,
+				2E8D28691C9A9F20003EB343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E8D282C1C9A9F20003EB343 /* Project object */;
+}
