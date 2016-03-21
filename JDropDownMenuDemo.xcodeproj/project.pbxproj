@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E7065611C9FCFD700889788 /* JDropDownMenuText.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7065601C9FCFD700889788 /* JDropDownMenuText.m */; };
 		2E7F2BEE1C9AAA8C00AFC94E /* JDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F2BED1C9AAA8C00AFC94E /* JDropDownMenu.m */; };
 		2E7F2BEF1C9AAA9A00AFC94E /* JDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F2BED1C9AAA8C00AFC94E /* JDropDownMenu.m */; };
 		2E8D28391C9A9F20003EB343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D28381C9A9F20003EB343 /* main.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E70655F1C9FCFD700889788 /* JDropDownMenuText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDropDownMenuText.h; sourceTree = "<group>"; };
+		2E7065601C9FCFD700889788 /* JDropDownMenuText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDropDownMenuText.m; sourceTree = "<group>"; };
 		2E7F2BEC1C9AAA8C00AFC94E /* JDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDropDownMenu.h; path = JDropDownMenu/JDropDownMenu.h; sourceTree = "<group>"; };
 		2E7F2BED1C9AAA8C00AFC94E /* JDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDropDownMenu.m; path = JDropDownMenu/JDropDownMenu.m; sourceTree = "<group>"; };
 		2E8D28341C9A9F20003EB343 /* JDropDownMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDropDownMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +123,8 @@
 				2E8D28451C9A9F20003EB343 /* LaunchScreen.storyboard */,
 				2E8D28481C9A9F20003EB343 /* Info.plist */,
 				2E8D28371C9A9F20003EB343 /* Supporting Files */,
+				2E70655F1C9FCFD700889788 /* JDropDownMenuText.h */,
+				2E7065601C9FCFD700889788 /* JDropDownMenuText.m */,
 			);
 			path = JDropDownMenuDemo;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				2E8D286E1C9A9F85003EB343 /* JDropDownMenuItem.m in Sources */,
 				2E8D283C1C9A9F20003EB343 /* AppDelegate.m in Sources */,
 				2E8D28391C9A9F20003EB343 /* main.m in Sources */,
+				2E7065611C9FCFD700889788 /* JDropDownMenuText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

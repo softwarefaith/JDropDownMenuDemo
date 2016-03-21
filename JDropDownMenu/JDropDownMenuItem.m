@@ -15,7 +15,6 @@ const CGFloat kDefaultPadding = 5.0f;
 
 #pragma mark --Setter and  Getter
 -(UIEdgeInsets)padding{
-    
     return UIEdgeInsetsMake(kDefaultPadding, kDefaultPadding, kDefaultPadding, kDefaultPadding);
 }
 #pragma mark --protocol
